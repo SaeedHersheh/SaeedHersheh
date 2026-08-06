@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="230">
+  <style>
+    .text   { font-family: 'Courier New', monospace; font-size: 14px; fill: #c9d1d9; white-space: pre; }
+    .static { fill: #58a6ff; }
+
+    .saeed  { animation: showSaeed  6s infinite; }
+    .scram1 { animation: showScram1 6s infinite; opacity: 0; }
+    .scram2 { animation: showScram2 6s infinite; opacity: 0; }
+    .layth  { animation: showLayth  6s infinite; opacity: 0; }
+    .scram3 { animation: showScram3 6s infinite; opacity: 0; }
+    .scram4 { animation: showScram4 6s infinite; opacity: 0; }
+
+    @keyframes showSaeed  { 0%, 45% { opacity: 1; } 45.1%, 100% { opacity: 0; } }
+    @keyframes showScram1 { 0%, 45% { opacity: 0; } 45.1%, 47.5% { opacity: 1; } 47.6%, 100% { opacity: 0; } }
+    @keyframes showScram2 { 0%, 47.5% { opacity: 0; } 47.6%, 50% { opacity: 1; } 50.1%, 100% { opacity: 0; } }
+    @keyframes showLayth  { 0%, 50% { opacity: 0; } 50.1%, 95% { opacity: 1; } 95.1%, 100% { opacity: 0; } }
+    @keyframes showScram3 { 0%, 95% { opacity: 0; } 95.1%, 97.5% { opacity: 1; } 97.6%, 100% { opacity: 0; } }
+    @keyframes showScram4 { 0%, 97.5% { opacity: 0; } 97.6%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+  </style>
+
+  <!-- SAEED -->
+  <text x="0" y="15" class="text saeed">
+    <tspan x="0" dy="1.2em">   ____   _    _____ _____ ____  </tspan>
+    <tspan x="0" dy="1.2em">  / ___| / \  | ____| ____|  _ \ </tspan>
+    <tspan x="0" dy="1.2em">  \___ \/ _ \ |  _| |  _| | | | |</tspan>
+    <tspan x="0" dy="1.2em">   ___) / ___ \| |___| |___| |_| |</tspan>
+    <tspan x="0" dy="1.2em">  |____/_/   \_\_____|_____|____/ </tspan>
+  </text>
+
+  <!-- SCRAMBLE 1 -->
+  <text x="0" y="15" class="text scram1">
+    <tspan x="0" dy="1.2em">   _--_   _    _-_-_ __-__ _--_  </tspan>
+    <tspan x="0" dy="1.2em">  / /\_| / \  |/_\_| /_\_|| \ \ </tspan>
+    <tspan x="0" dy="1.2em">  \_/ \/ _ \ | /_/ | /_/ | | | |</tspan>
+    <tspan x="0" dy="1.2em">   _-_) / _-_ \| /-_| /-_-| \_/ |</tspan>
+    <tspan x="0" dy="1.2em">  |_-_-/-/   \_\_-_-_|_-_-_|_-_/ </tspan>
+  </text>
+
+  <!-- SCRAMBLE 2 -->
+  <text x="0" y="15" class="text scram2">
+    <tspan x="0" dy="1.2em">   _        _ _-_   _ _-_-_ _   _ </tspan>
+    <tspan x="0" dy="1.2em">  | |      / \\ \ / /_ - _| | | | </tspan>
+    <tspan x="0" dy="1.2em">  | |     / _ \\ V /  |-| | |_| | </tspan>
+    <tspan x="0" dy="1.2em">  | |__  / ___ \| |   |-| |  _  | </tspan>
+    <tspan x="0" dy="1.2em">  |_-_-/ /   \_\_|   |_-| |_| |_| </tspan>
+  </text>
+
+  <!-- LAYTH -->
+  <text x="0" y="15" class="text layth">
+    <tspan x="0" dy="1.2em">   _        _ __   _ _____ _   _ </tspan>
+    <tspan x="0" dy="1.2em">  | |      / \\ \ / /_   _| | | |</tspan>
+    <tspan x="0" dy="1.2em">  | |     / _ \\ V /  | | | |_| |</tspan>
+    <tspan x="0" dy="1.2em">  | |___ / ___ \| |   | | |  _  |</tspan>
+    <tspan x="0" dy="1.2em">  |_____/_/   \_\_|   |_| |_| |_|</tspan>
+  </text>
+
+  <!-- SCRAMBLE 3 -->
+  <text x="0" y="15" class="text scram3">
+    <tspan x="0" dy="1.2em">   _--_     _ __   _ _-_-_ _--_  </tspan>
+    <tspan x="0" dy="1.2em">  |/ /     / \\ \ / /_ - _|\ \ | </tspan>
+    <tspan x="0" dy="1.2em">  | /     / _ \\ V /  |-| | \ \| </tspan>
+    <tspan x="0" dy="1.2em">  | \_-_ / _-_ \| |   |-| |  _ \ </tspan>
+    <tspan x="0" dy="1.2em">  |_-_-_/_/   \_\_|   |_| |_| \_\</tspan>
+  </text>
+
+  <!-- SCRAMBLE 4 -->
+  <text x="0" y="15" class="text scram4">
+    <tspan x="0" dy="1.2em">   _--_   _    __-__ _-_-_ _--_  </tspan>
+    <tspan x="0" dy="1.2em">  / /\_| / \  | _/_|| _/_||/ / | </tspan>
+    <tspan x="0" dy="1.2em">  \_/ \/ _ \ |-_| |-_| | | | | |</tspan>
+    <tspan x="0" dy="1.2em">   _-_) / _-_ \| |-_-| |-_-| \_/ |</tspan>
+    <tspan x="0" dy="1.2em">  |____/_/   \_\_-_-_|_-_-_|____/ </tspan>
+  </text>
+
+  <!-- HERSHEH (STATIONARY) -->
+  <text x="0" y="120" class="text static">
+    <tspan x="0" dy="1.2em">   _   _ _____ ____  ____  _   _ _____ _   _ </tspan>
+    <tspan x="0" dy="1.2em">  | | | | ____|  _ \/ ___|| | | | ____| | | |</tspan>
+    <tspan x="0" dy="1.2em">  | |_| |  _| | |_) \___ \| |_| |  _| | |_| |</tspan>
+    <tspan x="0" dy="1.2em">  |  _  | |___|  _ &lt; ___) |  _  | |___|  _  |</tspan>
+    <tspan x="0" dy="1.2em">  |_| |_|_____|_| \_\____/|_| |_|_____|_| |_|</tspan>
+  </text>
+</svg>
